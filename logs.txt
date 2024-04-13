@@ -1,0 +1,35 @@
+commit a36d8fb06370c02a2a3e959f472a218aca223ff4
+Author: ivan-ivanovski <ivan.ivanovski@students.finki.ukim.mk>
+Date:   Sat Apr 13 18:37:58 2024 +0200
+
+    Call method makeBigStringFrom in main class
+
+commit fb881c615f4d281065340dd82a0adc28cc1eb7ae
+Author: ivan-ivanovski <ivan.ivanovski@students.finki.ukim.mk>
+Date:   Sat Apr 13 18:25:27 2024 +0200
+
+    Fix wrong condition in makeBigStringFrom and make method public
+
+commit 3c98029b02799f3986d31e0e7786a508e5ef3ac4
+Author: ivan-ivanovski <ivan.ivanovski@students.finki.ukim.mk>
+Date:   Sat Apr 13 18:31:09 2024 +0200
+
+    Call method filterOddLengthStrings in main class
+
+commit 1f6b0e24e032226396a19215272001509885f898
+Author: ivan-ivanovski <ivan.ivanovski@students.finki.ukim.mk>
+Date:   Sat Apr 13 18:17:12 2024 +0200
+
+    Fix wrong condition in filterOddLengthStrings
+
+commit 1c894f717b5e496961994920b98e64de87d35b74
+Author: ivan-ivanovski <ivan.ivanovski@students.finki.ukim.mk>
+Date:   Sat Apr 13 18:01:03 2024 +0200
+
+    Add started code
+
+commit 88d5cfbd43e78e0aecaf64a41f244ec9fcccae87
+Author: ivan-ivanovski <ivan.ivanovski@students.finki.ukim.mk>
+Date:   Sat Apr 13 17:49:46 2024 +0200
+
+    Initial commit
