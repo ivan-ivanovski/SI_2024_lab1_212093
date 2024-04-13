@@ -1,0 +1,31 @@
+Лаб 1 Белешки
+Креирање на локален директориум преку терминал со команда mkdir [ime_na_dir].
+Поврзување на локален директориум со далечен remote origin: git add remote origin [URL_na_repo].
+Додавање на README.md фајл во локален директориум: touch README.md, 
+а со nano README.md може да додадеме нова содржина.
+Проверка на состојаба во локален директориум со git status .
+Послем додавање на некој фајл истиот треба да се повика на сцена со командата git add [ime_na_file].
+Да се напише некоја коментар односно да се направи комит на одреден фајл се повику командата git commit -m "poruka", -m ни означуваа знаменце за порака(message).
+Разгранување од мастер гранка на повеќе граники со git checkout -b ime_na_granka, за промена од една гранка во друга со git checkout ime_na_granka, за приказ на сите гранки или веќе постоечки гранки git branch.
+При разгранување на гранки треба да се земе за каков тип на workflow станува збор, дали е централизиран односно со една гранка која е master, дали е feature односно до две гранки master, а од master се разгранува гранката feature. Подоцна од feature се разгрануваат други гранки и дали е git workflow кој се користи за групни и големи проекти, составин од најмалку пет гранки master, developer, feature, release и hotfix.
+Со git log може да се видат сите промени и направени комити.
+По отварање на нова гранка целата соджина од master гранка на некој начин се копира, но соджината што ќе се додаде и промене нема да се прамени и на master до моментот на спојување на гранка 
+Спојување на гранки
+	1. Пред да се спојат новата гранка треба се додаде во одалечен репозиториум со помош на git push origin [ime_granka]
+	2. Ако сакаме гранката да ја споиме со мастер гранка тогаш привин се поставуваме на master granka git checkout master, подоцна со командата git merge ime_granka ја спојување со master гранка
+	3. При спојување може да се јави конфлик.
+
+Конфлик за lab1 се јави откако сакав да извршам комaнда rebase врз гранка bug2	
+Изглед на тој конфликт
+  Auto-merging SILab1Main.java
+  CONFLICT (content): Merge conflict in SILab1Main.java
+  error: could not apply d4782d1... Call method makeBigStringFrom in main class
+  hint: Resolve all conflicts manually, mark them as resolved with
+  hint: "git add/rm <conflicted_files>", then run "git rebase --continue".
+  hint: You can instead skip this commit: run "git rebase --skip".
+  hint: To abort and get back to the state before "git rebase", run "git rebase --abort".
+  Could not apply d4782d1... Call method makeBigStringFrom in main class
+Конфликтот е решен рачно.
+
+Во фајлот logs.txt се наоѓаат сите комити од првичен до последен.
+
