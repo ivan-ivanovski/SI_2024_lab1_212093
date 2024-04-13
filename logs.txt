@@ -1,3 +1,15 @@
+commit bd85d3a6c722f1efb3874a41c4879ba1bca003aa
+Author: Ivan Ivanovski <102607352+ivan-ivanovski@users.noreply.github.com>
+Date:   Sat Apr 13 19:17:45 2024 +0200
+
+    Add lab1 notes to 212093.txt
+
+commit 09e275bb9dbbb888e5266adfddf2f2fb0a5e750e
+Author: ivan-ivanovski <ivan.ivanovski@students.finki.ukim.mk>
+Date:   Sat Apr 13 18:52:32 2024 +0200
+
+    Final commit
+
 commit a36d8fb06370c02a2a3e959f472a218aca223ff4
 Author: ivan-ivanovski <ivan.ivanovski@students.finki.ukim.mk>
 Date:   Sat Apr 13 18:37:58 2024 +0200
